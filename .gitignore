@@ -1,0 +1,36 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local editor settings
+.vscode/
+
+# Local caches and generated outputs
+.cache/
+script_outputs/
+outputs/
+results/
+logs/
+*.log
+
+# External data/source folders kept outside this repo
+perturb-cite-seq/
+SERGIO-master/

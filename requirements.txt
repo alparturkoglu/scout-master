@@ -1,0 +1,21 @@
+# Minimal Python dependencies for this repository
+# Note: `rpy2` requires a working R installation on the system.
+# The backShift baseline also needs its R package imports installed separately.
+
+numpy>=1.23
+scipy>=1.8
+pandas>=1.4
+matplotlib>=3.5
+networkx>=2.6
+torch>=1.12
+nflows>=0.14
+scikit-learn>=1.0
+tqdm>=4.50
+seaborn>=0.11
+statsmodels>=0.13
+rpy2>=3.5.1
+Cython>=0.29
+
+# Optional / developer tools
+notebook>=6.0
+jupyterlab>=3.0
